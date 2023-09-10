@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertigo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <div id="content" class="slideForDown">
+            <header>
+                <img src="assets/img/logo.svg" alt="Logo Image">
+            </header>
+            <div id="welcome">
+                <h1> Acesse a plataforma </h1>
+                <p> Faço login ou registre-se para começar a construir seus projetos ainda hoje. </p>
+            </div>
+            <form>
+                <div class="input-wrapper">
+                    <label for="email"> E-mail </label>
+                    <input type="text" name="email" id="email" placeholder="Write your e-mail">
+                    <p class="error-message hide"></p>
+                </div>
+                <div class="input-wrapper">
+                    <div class="label-wrapper">
+                        <label for="password"> Password </label>
+                        <a href="#"> Redeem password? </a>
+                    </div>
+                    <input type="password" name="password" id="password" placeholder="Write your password">
+                    <img src="assets/img/eye-off.svg" alt="" class="toggle-password">
+                    <img src="assets/img/eye.svg" alt="" class="toggle-password hide">
+                    <p class="error-message hide"></p>
+                </div>
+                <div class="socials">
+                    <a href="#" class="social"> 
+                        <img src="assets/img/google.svg" alt="Google Icon"> 
+                        <p> Google </p>
+                    </a> 
+                    |
+                    <a href="#" class="social"> 
+                        <img src="assets/img/linkedin.svg" alt="LinkedIn Icon"> 
+                        <p> LinkedIn </p>
+                    </a> 
+                </div>
+                <button type="submit"> Send </button>
+                <p> 
+                    You haven't account? 
+                    <span> 
+                        <a href="#"> Create one right now. </a>
+                    </span>
+                </p>
+            </form>
+        </div>
+        <img src="assets/img/background.svg" alt="Background Image" id="background-image">
+    </main>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
